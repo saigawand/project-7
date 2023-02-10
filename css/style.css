@@ -1,0 +1,139 @@
+
+
+nav {
+  float: left;
+  width: 25%;
+  height: 1730px;
+  padding: 20px;
+  background:gold;
+  font-family: Calibri;
+  font-size: large;
+  
+}
+li.navstyle1{
+  color: rgb(0, 0, 0);
+}
+h1  {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serif{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Admissions{
+  font-family:Century Schoolbook;
+}
+
+h4 {
+  font-family: Century Schoolbook;
+}
+button{
+  background-color: black;
+  border-color:darkgoldenrod;
+  font-size: larger;
+  font-family: 'Arial Black';
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+a.applynow{
+  color: gold;
+text-decoration: none;
+}
+a.style1{
+  
+  text-decoration: none;
+}
+a.navhstyle{
+  text-decoration: none;
+  color:black;
+}
+nav ul {
+  list-style-type:circle;
+  padding: 10;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  height: 1730px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+  width: 100%;
+  height: auto;
+  }
+}
+
+
+
+
+article {
+  background: gold;
+  animation: fadeBackground 1.7s;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes fadeBackground {
+  from {background-color: gold;}
+  to {background-color:orange;}
+}
+
+body{
+          background-image: url('Img/RVU2.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size:14cm;
+          background-position: top;
+          font-family:Arial, Helvetica, sans-serif;
+      }
+
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing:border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      div {
+        border-radius: 5px;
+
+        padding: 20px;
+      }
+      
+      myFunction():hover {
+        background-color: #45a049;
+      }
